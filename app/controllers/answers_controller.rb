@@ -1,6 +1,6 @@
 class AnswersController < ApplicationController
 
-  before_action :authorize, only: [:new, :create]
+  before_action :authorize, only: [:new, :create, :show]
 
   def secret
   end
